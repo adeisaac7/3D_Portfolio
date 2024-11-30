@@ -5,11 +5,16 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
+
+  if(isMobile) {
+    return <h1>Conditional statement here</h1>
+  }
+
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15}
+      <hemisphereLight intensity={0.12}
         groundColor="black"
       />
       <spotLight
@@ -60,8 +65,8 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      dpr={[1, 1.5]}
-      camera={{ position: [15, 2, 5], fov: 40 }}
+      dpr={[1, 1.25]}
+      camera={{ position: [15, 2, 5], fov: 50 }}
       gl={{preserveDrawingBuffer: false }}
     >
       <Suspense fallback={<CanvasLoader />}>
