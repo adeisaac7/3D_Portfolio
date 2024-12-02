@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
-
+import { useMediaQuery } from "react-responsive";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import computer from './computer.png'
 
 const Hero = () => {
+
+  const isDesktop = useMediaQuery({query: "(min-width: 640px)"});
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -24,8 +28,22 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      
+      <div className="absolute bottom-0 w-full flex justify-center items-center">
+        {isDesktop ? (
+          <div className="w-full h-[600px]">
+            <ComputersCanvas />
+          </div>
+        ) : (
+          <img
+            src={computer}
+            alt=""
+            className="w-[670px] h-auto object-contain md:w-[650px]"
+          />
+        )}
 
-      <ComputersCanvas />
+      </div>
+
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
