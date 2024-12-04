@@ -8,6 +8,8 @@ import {
   useTexture,
 } from "@react-three/drei";
 
+import { useMediaQuery } from "react-responsive";
+
 import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
@@ -39,7 +41,10 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  return (
+
+  const isDesktop = useMediaQuery({ query: "(min-width: 640px)" })
+
+  return isDesktop ? (
     <Canvas
       frameloop='demand'
       dpr={[1, 1.5]}
@@ -52,6 +57,12 @@ const BallCanvas = ({ icon }) => {
 
       <Preload all />
     </Canvas>
+  ):(
+    <img
+      src={icon}
+      alt="Technology icon"
+      className="w-[70px] h-[70px] opacity-60 object-contain"
+    />
   );
 };
 

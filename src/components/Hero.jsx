@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-0 w-full flex justify-center items-center">
+      <div className="absolute bottom-[100px] w-full flex justify-center items-center">
         {isDesktop ? (
           <div className="w-full h-[600px]">
             <ComputersCanvas />
@@ -38,7 +38,7 @@ const Hero = () => {
           <img
             src={computer}
             alt=""
-            className="w-[670px] h-auto object-contain md:w-[650px]"
+            className="w-[90%] h-auto object-contain -mb-5 opacity-90"
           />
         )}
 
