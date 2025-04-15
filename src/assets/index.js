@@ -35,6 +35,8 @@ import greenbot from './greenbot.png'
 import nasa from './nasa.png'
 import taskmaster from './taskmaster.png';
 import fitness from './fitness.png'
+import bites from './bites.png'
+import royalspoon from './royalspoon.png'
 
 export {
   fitness,
@@ -70,5 +72,6 @@ export {
   carrent,
   jobit,
   tripguide,
-
+  bites,
+  royalspoon
 };

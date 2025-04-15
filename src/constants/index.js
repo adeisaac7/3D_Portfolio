@@ -28,6 +28,8 @@ import {
   nasa,
   taskmaster,
   fitness,
+  bites,
+  royalspoon
 } from "../assets";
 
 export const navLinks = [
@@ -116,7 +118,7 @@ const experiences = [
   {
     title: "Web Developer",
     iconBg: "#383E56",
-    date: "March 2019 - Present",
+    date: "July 2020 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -125,25 +127,25 @@ const experiences = [
     ],
   },
   {
-    title: "React.js Developer",
-    iconBg: "#383E56",
-    date: "Jan 2020 - Present",
-    points: [
-      "Developed dynamic and interactive web applications using React.js.",
-      "Built reusable components and front-end libraries for future use.",
-      "Worked with RESTful APIs to fetch and display data dynamically.",
-      "Implemented state management solutions using Redux and Context API.",
-    ],
-  },
-  {
     title: "Graphic Designer",
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2020 - Present",
     points: [
       "Designed logos, branding materials, and marketing content for various clients.",
       "Utilized tools like Adobe Photoshop and Illustrator for high-quality designs.",
       "Collaborated with clients to understand their vision and deliver tailored solutions.",
       "Managed multiple projects simultaneously, ensuring timely delivery.",
+    ],
+  },
+  {
+    title: "System Analyst",
+    iconBg: "#383E56",
+    date: "Feb. 2020 - July 2022",
+    points: [
+      "Coordinated  cross-functional teams to deliver project on time, within budget, and to specification.",
+      "Ensured effective communication and collaboration among team members and stakeholders.",
+      "Fostered strong relationships with clients and team members to drive project success.",
+      "Utilized project management skills to prioritize tasks, manage risks, and achieve project goals.",
     ],
   },
 ];
@@ -217,6 +219,22 @@ const projects = [
     image: greenbot,
     source_code_link: "https://github.com/adeisaac7/GREENBOT-react",
   },
+  {
+    name: "Bites",
+    description:
+    "A sleek, conversion-focused landing page for a food delivery service, featuring responsive design, appetizing food visuals, and optimized call-to-action elements to drive user engagement.",
+
+    image: bites,
+    source_code_link: "https://github.com/adeisaac7/bites-landing-page",
+  },
+  {
+    name: "Royalspoon Food and Events",
+    description:"A full-stack catering platform with Paystack payment integration, React-Email order confirmations, and responsive UI—built for seamless customer purchases.",
+
+    image: royalspoon,
+    source_code_link: "https://github.com/adeisaac7/RoyalSpoon-Food-and-Events",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
