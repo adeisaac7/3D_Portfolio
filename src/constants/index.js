@@ -185,6 +185,8 @@ const projects = [
   
     image: taskmaster,
     source_code_link: "https://github.com/adeisaac7/TaskMaster",
+
+    live_link: 'https://kaizenlist.vercel.app'
   },
   {
     name: "SpaceVision",
@@ -193,6 +195,9 @@ const projects = [
 
     image: nasa,
     source_code_link: "https://github.com/adeisaac7/Space-Vision",
+
+    live_link: 'https://spacevision.vercel.app'
+
   },
   {
     name: "Craftshub",
@@ -201,6 +206,9 @@ const projects = [
 
     image: craftshub,
     source_code_link: "https://github.com/adeisaac7/E-commerce01",
+
+    live_link: 'https://craftshub-frontend.vercel.app'
+
   },
   {
     name: "Kaizen Fit",
@@ -209,6 +217,9 @@ const projects = [
 
     image: fitness,
     source_code_link: "https://github.com/adeisaac7/Kaizen-Fit",
+
+    live_link: ''
+
   },
   {
     name: "GreenBot",
@@ -218,6 +229,9 @@ const projects = [
 
     image: greenbot,
     source_code_link: "https://github.com/adeisaac7/GREENBOT-react",
+    
+    live_link: 'https://greenbot-react.vercel.app'
+
   },
   {
     name: "Bites",
@@ -226,13 +240,20 @@ const projects = [
 
     image: bites,
     source_code_link: "https://github.com/adeisaac7/bites-landing-page",
+    
+    live_link: 'https://bites-page.vercel.app'
+
   },
   {
     name: "Royalspoon Food and Events",
+    
     description:"A full-stack catering platform with Paystack payment integration, React-Email order confirmations, and responsive UI—built for seamless customer purchases.",
 
     image: royalspoon,
     source_code_link: "https://github.com/adeisaac7/RoyalSpoon-Food-and-Events",
+    
+    live_link: ''
+
   },
 
 ];
