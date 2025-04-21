@@ -246,13 +246,13 @@ const projects = [
   },
   {
     name: "Royalspoon Food and Events",
-    
+
     description:"A full-stack catering platform with Paystack payment integration, React-Email order confirmations, and responsive UI—built for seamless customer purchases.",
 
     image: royalspoon,
     source_code_link: "https://github.com/adeisaac7/RoyalSpoon-Food-and-Events",
     
-    live_link: ''
+    live_link: 'https://royalspoon-food-and-events.vercel.app'
 
   },
 
