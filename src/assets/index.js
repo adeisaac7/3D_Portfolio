@@ -37,6 +37,7 @@ import taskmaster from './taskmaster.png';
 import fitness from './fitness.png'
 import bites from './bites.png'
 import royalspoon from './royalspoon.png'
+import freeScribe from './freeScribe.png'
 
 export {
   fitness,
@@ -73,5 +74,6 @@ export {
   jobit,
   tripguide,
   bites,
-  royalspoon
+  royalspoon,
+  freeScribe
 };

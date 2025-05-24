@@ -262,7 +262,7 @@ const projects = [
     description:"A React web based transcription & translation app that uses web workers to run ML models in the browser",
 
     image: freeScribe,
-    source_code_link: "https://github.com/adeisaac7/RoyalSpoon-Food-and-Events",
+    source_code_link: "https://github.com/adeisaac7/Free-Scribe",
     
     live_link: ''
 
