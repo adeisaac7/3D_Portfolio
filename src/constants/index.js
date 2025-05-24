@@ -29,7 +29,8 @@ import {
   taskmaster,
   fitness,
   bites,
-  royalspoon
+  royalspoon,
+  freeScribe
 } from "../assets";
 
 export const navLinks = [
@@ -253,6 +254,17 @@ const projects = [
     source_code_link: "https://github.com/adeisaac7/RoyalSpoon-Food-and-Events",
     
     live_link: 'https://royalspoon-food-and-events.vercel.app'
+
+  },
+  {
+    name: "FreeScribe",
+
+    description:"A React web based transcription & translation app that uses web workers to run ML models in the browser",
+
+    image: freeScribe,
+    source_code_link: "https://github.com/adeisaac7/RoyalSpoon-Food-and-Events",
+    
+    live_link: ''
 
   },
 
