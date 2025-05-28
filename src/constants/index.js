@@ -272,7 +272,7 @@ const projects = [
   {
     name: "FreeScribe",
 
-    description:"A React web based transcription & translation app that uses web workers to run ML models in the browser",
+    description:"A React web based transcription & translation app that uses web workers to run ML models in the browser.",
 
     image: freeScribe,
     source_code_link: "https://github.com/adeisaac7/Free-Scribe",
@@ -286,7 +286,7 @@ const projects = [
     description:    "A modern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
 
     image: kaizpay,
-    source_code_link: "https://github.com/adeisaac7/Free-Scribe",
+    source_code_link: "https://github.com/adeisaac7/KaizPay",
     
     live_link: ''
 
