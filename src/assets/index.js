@@ -38,6 +38,7 @@ import fitness from './fitness.png'
 import bites from './bites.png'
 import royalspoon from './royalspoon.png'
 import freeScribe from './freeScribe.png'
+import kaizpay from './kaizpay.png'
 
 export {
   fitness,
@@ -75,5 +76,6 @@ export {
   tripguide,
   bites,
   royalspoon,
-  freeScribe
+  freeScribe,
+  kaizpay
 };

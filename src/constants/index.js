@@ -30,7 +30,8 @@ import {
   fitness,
   bites,
   royalspoon,
-  freeScribe
+  freeScribe,
+  kaizpay
 } from "../assets";
 
 export const navLinks = [
@@ -58,12 +59,24 @@ const services = [
     icon: mobile,
   },
   {
+    title: "Next.js Developer",
+    icon: creator,
+  },
+  {
+    title: "three.js Developer",
+    icon: backend,
+  },
+  {
+    title: "Node.js Developer",
+    icon: creator,
+  },
+  {
     title: "Backend Developer",
     icon: backend,
   },
   {
     title: "Graphic Designer",
-    icon: creator,
+    icon: web,
   },
 ];
 
@@ -262,6 +275,17 @@ const projects = [
     description:"A React web based transcription & translation app that uses web workers to run ML models in the browser",
 
     image: freeScribe,
+    source_code_link: "https://github.com/adeisaac7/Free-Scribe",
+    
+    live_link: ''
+
+  },
+  {
+    name: "KaizPay",
+
+    description:    "A modern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
+
+    image: kaizpay,
     source_code_link: "https://github.com/adeisaac7/Free-Scribe",
     
     live_link: ''
