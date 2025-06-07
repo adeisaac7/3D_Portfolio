@@ -31,7 +31,8 @@ import {
   bites,
   royalspoon,
   freeScribe,
-  kaizpay
+  kaizpay,
+  kzn
 } from "../assets";
 
 export const navLinks = [
@@ -63,7 +64,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "three.js Developer",
+    title: "Three.js Developer",
     icon: backend,
   },
   {
@@ -272,7 +273,7 @@ const projects = [
   {
     name: "FreeScribe",
 
-    description:"A React web based transcription & translation app that uses web workers to run ML models in the browser.",
+    description: "A browser-based transcription and translation tool powered by machine learning. Built with React, it supports multiple languages and offers a responsive, distraction-free UI for seamless content conversion.",
 
     image: freeScribe,
     source_code_link: "https://github.com/adeisaac7/Free-Scribe",
@@ -283,10 +284,21 @@ const projects = [
   {
     name: "KaizPay",
 
-    description:    "A modern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
+    description: "A modern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
 
     image: kaizpay,
     source_code_link: "https://github.com/adeisaac7/KaizPay",
+    
+    live_link: ''
+
+  },
+  {
+    name: "SaaS Landing Page",
+
+    description: "A clean, modern, and conversion-optimized SaaS landing page template designed to showcase software products or startups. Built with React and Tailwind CSS, it features sleek user interface, responsive design, feature highlights, customer testimonials, and a clear call to action to drive sign-ups or conversions.",
+
+    image: kzn,
+    source_code_link: "https://github.com/adeisaac7/KZN-SaaS-Landing-Page",
     
     live_link: ''
 
