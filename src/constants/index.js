@@ -48,6 +48,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
@@ -168,29 +169,38 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "He consistently writes clean, reusable code — and his attention to accessibility is something I’ve really picked up from him. It’s always a pleasure pairing with Kaizen on components.",
+    name: "Aisha Bello",
+    company: "Freelance",
+    service: "Frontend Developer",
+    // image: "https://randomuser.me/api/portraits/women/8.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Dev Kaizen brings clarity to any codebase. His pull requests are thoughtful, and his approach to solving bugs is both methodical and efficient.",
+    name: "Tunde Adedayo",
+    company: "Freelance",
+    service: "Full Stack Developer",
+    // image: "https://randomuser.me/api/portraits/men/14.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Reliable, creative, and highly professional. Kaizen asked the right questions, understood our needs, and exceeded every expectation. Clients now comment on how intuitive our platform feels.",
+    name: "Chijioke Cherish",
+    company: "Web3 Aggregator",
+    service: "UI/UX Designer",
+    // image: "https://randomuser.me/api/portraits/women/17.jpg",
   },
+  {
+    testimonial:
+      "Kaizen’s work ethic is unmatched. He kept me in the loop, explained technical stuff clearly, and brought real energy to the project.",
+    name: "Adeyemi Olayinka",
+    company: "Freelance",
+    service: "Creative Director",
+    // image: "https://randomuser.me/api/portraits/men/45.jpg",
+  }
 ];
+
 
 const projects = [
   {
@@ -284,7 +294,7 @@ const projects = [
   {
     name: "KaizPay",
 
-    description: "A modern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
+    description: "A mozdern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
 
     image: kaizpay,
     source_code_link: "https://github.com/adeisaac7/KaizPay",

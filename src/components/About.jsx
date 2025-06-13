@@ -49,7 +49,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-         I am a passionate web developer with a focus on creating user-friendly, responsive, and visually appealing websites. Skilled in front-end and back-end development, I specialize in technologies like React.js, MongoDB, and Node.js. I enjoy solving complex problems and turning ideas into fully functional web solutions. Let's work together and bring your ideas to life .
+         I am a passionate web developer with a focus on creating user-friendly, responsive, and visually appealing websites. Skilled in frontend and backend development, I specialize in technologies like React.js, Next.js, Node.js, MongoDB and more. I enjoy solving complex problems and turning ideas into fully functional web solutions.
+         Looking to launch a web app, improve your current site, or need a reliable dev to collaborate with? Let’s build something great.
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
