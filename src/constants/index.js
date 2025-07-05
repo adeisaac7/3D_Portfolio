@@ -72,10 +72,7 @@ const services = [
     title: "Node.js Developer",
     icon: creator,
   },
-  {
-    title: "Express.js Developer",
-    icon: mobile,
-  },
+  
   {
     title: "Backend Developer",
     icon: backend,
@@ -83,6 +80,10 @@ const services = [
   {
     title: "Graphic Designer",
     icon: web,
+  },
+  {
+    title: "Express.js Developer",
+    icon: mobile,
   },
 ];
 
