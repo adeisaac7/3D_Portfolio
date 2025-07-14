@@ -190,7 +190,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Reliable, creative, and highly professional. Kaizen asked the right questions, understood our needs, and exceeded every expectation. Clients now comment on how intuitive our platform feels.",
+      "Reliable, creative, and highly professional. Kaizen asks the right questions, understood our needs, and exceeds every expectation. Clients now comment on how intuitive our platform feels.",
     name: "Chijioke Cherish",
     company: "Web3 Aggregator",
     service: "UI/UX Designer",

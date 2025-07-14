@@ -3,6 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import computer from './computer.png'
+// import resume from '../docs/resume.pdf'
 
 const Hero = () => {
 
@@ -10,29 +11,45 @@ const Hero = () => {
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+
+      {/* Resume button
+
+      <div className="p-24 text-right cursor-pointer">
+        <a href={resume} download>
+            <button className="bg-[#915EFF] hover:bg-red-500 font-bold py-2 px-4 rounded-lg pointer cursor-pointer">
+              Download My Resume
+            </button>
+        </a>
+      </div> */}
+
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Isaac Ade</span>
+            Hi, I&apos;m <span className='text-[#915EFF]'>Isaac Ade</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop websites for any kind of businesses, 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            interfaces and web applications.
           </p>
+
+          
         </div>
       </div>
       
       <div className="absolute bottom-[100px] w-full flex justify-center items-center">
+      
         {isDesktop ? (
           <div className="w-full h-[600px]">
             <ComputersCanvas />
+            
           </div>
         ) : (
           <img
@@ -40,6 +57,7 @@ const Hero = () => {
             alt=""
             className="w-[90%] h-auto object-contain -mb-5 opacity-90"
           />
+          
         )}
 
       </div>
@@ -62,6 +80,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
+      
     </section>
   );
 };
