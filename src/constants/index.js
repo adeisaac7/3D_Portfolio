@@ -8,20 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   photoshop,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   craftshub,
   greenbot,
@@ -137,6 +128,17 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Developer Tutor",
+    iconBg: "#FCE8E6",
+    date: "October 2023 - Present",
+    points: [
+      "Mentored students in core web technologies including HTML, CSS, JavaScript, and React.js.",
+    "Brokedown complex programming concepts into digestible lessons, improving student comprehension and project outcomes.",
+    "Conducted code reviews and debugging sessions, teaching problem-solving strategies and best practices.",
+    "Developed supplemental learning materials and practice projects to reinforce key concepts.",
+    ],
+  },
+  {
     title: "Web Developer",
     iconBg: "#383E56",
     date: "July 2020 - Present",
@@ -156,6 +158,17 @@ const experiences = [
       "Utilized tools like Adobe Photoshop and Illustrator for high-quality designs.",
       "Collaborated with clients to understand their vision and deliver tailored solutions.",
       "Managed multiple projects simultaneously, ensuring timely delivery.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    iconBg: "#E6F3FF",
+    date: "April 2020 - July 2020",
+    points: [
+       "Developed responsive and interactive user interfaces using modern frameworks like React.js and Next.js.",
+    "Collaborated with UX designers and backend developers to translate wireframes into functional components.",
+    "Wrote clean, maintainable code and participated in peer code reviews to ensure quality standards.",
+    "Optimized web application performance, improving Lighthouse scores by implementing lazy loading and efficient state management.",
     ],
   },
   {
@@ -202,6 +215,14 @@ const testimonials = [
     name: "Adeyemi Olayinka",
     company: "Freelance",
     service: "Creative Director",
+    // image: "https://randomuser.me/api/portraits/men/45.jpg",
+  },
+  {
+    testimonial:
+      "I was genuinely impressed with the website's clean layout, thoughtful color combinations, and a seamless user experience. My colleagues agreed: it’s both visually appealing and highly functional.",
+    name: "Akintunde Abigail",
+    company: "AIC Computer Institute",
+    service: "Graphic Designer",
     // image: "https://randomuser.me/api/portraits/men/45.jpg",
   }
 ];
@@ -299,7 +320,7 @@ const projects = [
   {
     name: "KaizPay",
 
-    description: "A mozdern fintech web application offering seamless money transfers, digital wallet functionality, and real-time balance tracking. KaizPay features a clean UI, secure authentication, and a user-focused experience for efficient personal finance management.",
+    description: "A browser-based transcription and translation tool powered by machine learning. Built with React, it supports multiple languages and offers a responsive, distraction-free UI for seamless content conversion.",
 
     image: kaizpay,
     source_code_link: "https://github.com/adeisaac7/KaizPay",

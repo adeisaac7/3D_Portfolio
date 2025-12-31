@@ -122,7 +122,8 @@
   border-radius: 50%;
   position: relative;
   text-indent: -9999em;
-  animation: mulShdSpin 1.1s infinite ease;
+  /* spinner animation disabled to reduce CPU/GPU work */
+  animation: none;
   transform: translateZ(0);
 }
 
