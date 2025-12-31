@@ -162,7 +162,7 @@ const experiences = [
   },
   {
     title: "Frontend Developer Intern",
-    iconBg: "#E6F3FF",
+    iconBg: "#383E56",
     date: "April 2020 - July 2020",
     points: [
        "Developed responsive and interactive user interfaces using modern frameworks like React.js and Next.js.",
@@ -173,7 +173,7 @@ const experiences = [
   },
   {
     title: "System Analyst",
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Feb. 2020 - July 2022",
     points: [
       "Coordinated  cross-functional teams to deliver project on time, within budget, and to specification.",
