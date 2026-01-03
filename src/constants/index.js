@@ -25,7 +25,6 @@ import {
   kaizpay,
   kzn,
   findcribs,
-  admin
 } from "../assets";
 
 export const navLinks = [

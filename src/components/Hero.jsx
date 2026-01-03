@@ -17,8 +17,8 @@ const Hero = () => {
         <a href={resumeUrl} download aria-label="Download resume" title="Download resume (PDF)">
           <div className="group flex flex-col items-center md:flex-row gap-3">
             {/* visible label on md+ (left) and small screens (above) */}
-            <span className="block md:hidden text-xs px-2 rounded-full bg-black/60 text-white font-medium text-center">My Resume</span>
-            <span className="hidden md:inline-block py-1 rounded-full bg-black/60 text-white text-sm font-medium">My Resume</span>
+            <span className="block md:hidden text-xs p-2 rounded-full bg-black/60 text-white font-medium text-center">My Resume</span>
+            <span className="hidden md:inline-block p-2 rounded-full bg-black/60 text-white text-sm font-medium">My Resume</span>
 
             <div className="relative">
               <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#915EFF] to-[#5A36D8] text-white flex items-center justify-center shadow-2xl hover:scale-105 transform transition-transform">
