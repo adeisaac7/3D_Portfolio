@@ -23,7 +23,9 @@ import {
   royalspoon,
   freeScribe,
   kaizpay,
-  kzn
+  kzn,
+  findcribs,
+  admin
 } from "../assets";
 
 export const navLinks = [
@@ -339,7 +341,17 @@ const projects = [
     live_link: ''
 
   },
+  {
+    name: "FindCribs - Real Estate Marketplace",
 
+    description: "A comprehensive full-stack real estate marketplace platform connecting property seekers with agents. Features property valuation, advanced search with natural language processing, property listings with rich media, user authentication, real-time notifications.",
+
+    image: findcribs,
+    source_code_link: "",
+    
+    live_link: 'https://findcribs.ng'
+
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
