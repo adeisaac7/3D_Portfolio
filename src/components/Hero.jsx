@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 
-const resumeUrl =  '../assets/new_cv.pdf';
+import resumePdf from "../assets/new_cv.pdf";
 
 const Hero = () => {
 
@@ -10,23 +10,42 @@ const Hero = () => {
   return (
     
     <section className={`relative w-full min-h-[60vh] mx-auto`}>
-
-      {/* Resume button */}
       
-      <div className="fixed right-6 bottom-6 z-50">
-        <a href={resumeUrl} download aria-label="Download resume" title="Download resume (PDF)">
+      {/* Resume button */}
+      <div className="fixed right-6 bottom-6 z-50"> {/* ✅ fixed typo */}
+        <a
+          href={resumePdf}
+          download="Isaac_Ade_Resume.pdf" // ✅ force a proper filename + .pdf
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download resume"
+          title="Download resume (PDF)"
+        >
           <div className="group flex flex-col items-center md:flex-row gap-3">
-            {/* visible label on md+ (left) and small screens (above) */}
-            <span className="block md:hidden text-xs p-2 rounded-full bg-black/60 text-white font-medium text-center">My Resume</span>
-            <span className="hidden md:inline-block p-2 rounded-full bg-black/60 text-white text-sm font-medium">My Resume</span>
+            <span className="block md:hidden text-xs p-2 rounded-full bg-black/60 text-white font-medium text-center">
+              My Resume
+            </span>
+            <span className="hidden md:inline-block p-2 rounded-full bg-black/60 text-white text-sm font-medium">
+              My Resume
+            </span>
 
             <div className="relative">
               <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#915EFF] to-[#5A36D8] text-white flex items-center justify-center shadow-2xl hover:scale-105 transform transition-transform">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 3v12m0 0l-4-4m4 4l4-4M21 21H3" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 3v12m0 0l-4-4m4 4l4-4M21 21H3"
+                  />
                 </svg>
               </div>
-              {/* tooltip visible on hover/focus */}
             </div>
           </div>
           <span className="sr-only">Download resume PDF</span>
