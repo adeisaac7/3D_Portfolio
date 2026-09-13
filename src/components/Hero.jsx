@@ -1,32 +1,27 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-
-// import resumePdf from "../assets/new_cv.pdf";
+import cvPdf from "../assets/Isaac_Ade_CV.pdf";
 
 const Hero = () => {
-
-
-
   return (
-    
     <section className={`relative w-full min-h-[60vh] mx-auto`}>
-      
-      {/* Resume button */}
-      {/* <div className="fixed right-6 bottom-6 z-50">
+
+      <div className="fixed right-6 bottom-6 z-50">
         <a
-          href={resumePdf}
-          download="Isaac_Ade_Resume.pdf" // ✅ force a proper filename + .pdf
+          href={cvPdf}
+          download="Isaac_Ade_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Download resume"
-          title="Download resume (PDF)"
+          aria-label="Download CV"
+          title="Download CV (PDF)"
         >
           <div className="group flex flex-col items-center md:flex-row gap-3">
+            {/* visible label */}
             <span className="block md:hidden text-xs p-2 rounded-full bg-black/60 text-white font-medium text-center">
-              My Resume
+              My CV
             </span>
             <span className="hidden md:inline-block p-2 rounded-full bg-black/60 text-white text-sm font-medium">
-              My Resume
+              My CV
             </span>
 
             <div className="relative">
@@ -48,64 +43,38 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <span className="sr-only">Download resume PDF</span>
+          <span className="sr-only">Download CV PDF</span>
         </a>
-      </div> */}
+      </div>
 
       <div className={`relative pt-16 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
-          
+        <div className="flex flex-col justify-center items-center mt-5">
+          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className='text-[#915EFF]'>Isaac Ade</span>
+            Hi, I&apos;m <span className="text-[#915EFF]">Isaac Ade</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop websites for any kind of businesses. Skilled at transforming business objectives into digital solutions. Proven ability to lead the design intent with robust technical execution. 
+            I develop websites for any kind of businesses. Skilled at transforming business objectives into digital solutions. Proven ability to lead the design intent with robust technical execution.
           </p>
         </div>
       </div>
-      
-      {/* <div className="absolute bottom-[100px] w-full flex justify-center items-center">
-      
-        {isDesktop ? (
-          <div className="w-full h-[600px]">
-            <ComputersCanvas />
-            
-          </div>
-        ) : (
-          <img
-            src={computer}
-            alt=""
-            className="w-[90%] h-auto object-contain -mb-5 opacity-90"
-          />
-          
-        )}
 
-      </div> */}
-
-
-  <div className='absolute xs:bottom-0 bottom-0 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+      <div className="absolute xs:bottom-0 bottom-0 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              animate={{ y: [0, 24, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop" }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>
       </div>
-      
+
     </section>
   );
 };
