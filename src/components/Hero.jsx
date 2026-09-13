@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 
-import resumePdf from "../assets/new_cv.pdf";
+// import resumePdf from "../assets/new_cv.pdf";
 
 const Hero = () => {
 
@@ -12,7 +12,7 @@ const Hero = () => {
     <section className={`relative w-full min-h-[60vh] mx-auto`}>
       
       {/* Resume button */}
-      <div className="fixed right-6 bottom-6 z-50"> {/* ✅ fixed typo */}
+      {/* <div className="fixed right-6 bottom-6 z-50">
         <a
           href={resumePdf}
           download="Isaac_Ade_Resume.pdf" // ✅ force a proper filename + .pdf
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
           <span className="sr-only">Download resume PDF</span>
         </a>
-      </div>
+      </div> */}
 
       <div className={`relative pt-16 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className='flex flex-col justify-center items-center mt-5'>
