@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import cvPdf from "../assets/Isaac_Ade_CV.pdf";
+import cvPdf from "../assets/Isaac_Ade_cv.pdf";
 
 const Hero = () => {
   return (
@@ -9,14 +9,13 @@ const Hero = () => {
       <div className="fixed right-6 bottom-6 z-50">
         <a
           href={cvPdf}
-          download="Isaac_Ade_CV.pdf"
+          download="Isaac_Ade_cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Download CV"
           title="Download CV (PDF)"
         >
           <div className="group flex flex-col items-center md:flex-row gap-3">
-            {/* visible label */}
             <span className="block md:hidden text-xs p-2 rounded-full bg-black/60 text-white font-medium text-center">
               My CV
             </span>
